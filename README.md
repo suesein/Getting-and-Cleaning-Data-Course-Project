@@ -21,7 +21,7 @@ This is the course project for the Getting and Cleaning Data Coursera course. Th
 6. Converts the activity and subject columns into factor
 7. Produce a dataset that consists of the average value of each variable for each subject and activity pair.
 
-The final result is then presented in the file called tidydata.txt
+The final result is then presented in the file called tidyData.txt
 CodeBook.md provides a description of the variables, the data and any transformations or work that was performed to clean up the data
 run_analysis.R contains all the code to perform the analysis described above which can be easily launced on R Studio
 
