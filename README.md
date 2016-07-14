@@ -14,14 +14,14 @@ www.smartlab.ws
 ==================================================================
 This is the course project for the Getting and Cleaning Data Coursera course. The R script, run_analysis.R performs the following processes:
 1. The code downloads the dataset if it does not already exsit in the working directory
-2.The program then load the activity ad feature info
+2. The program then load the activity ad feature info
 3. Loan 2 datasets: training and  test datasets and keep only those columns which reflect a mean or standard deviation
 4. Load the activity and subject data for each dataset, and merges those columns with the dataset
 5. Merges the 2 dataset - training and test-to create one dataset
 6. Converts the activity and subject columns into factor
 7. Produce a dataset that consists of the average value of each variable for each subject and activity pair.
 
-The final result is then presented in the file called tidydataset.txt
+The final result is then presented in the file called tidydata.txt
 CodeBook.md provides a description of the variables, the data and any transformations or work that was performed to clean up the data
 run_analysis.R contains all the code to perform the analysis described above which can be easily launced on R Studio
 
